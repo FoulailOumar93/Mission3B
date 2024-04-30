@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="gsbrapports2021Model.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="8.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="famille">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="libelle" Type="varchar" MaxLength="80" Nullable="false" />
+  </EntityType>
+  <EntityType Name="medecin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="prenom" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="adresse" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="tel" Type="varchar" MaxLength="15" />
+    <Property Name="specialiteComplementaire" Type="varchar" MaxLength="50" />
+    <Property Name="departement" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="medicament">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="nomCommercial" Type="varchar" MaxLength="80" Nullable="false" />
+    <Property Name="idFamille" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="composition" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="effets" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="contreIndications" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="offrir">
+    <Key>
+      <PropertyRef Name="idRapport" />
+      <PropertyRef Name="idMedicament" />
+    </Key>
+    <Property Name="idRapport" Type="int" Nullable="false" />
+    <Property Name="idMedicament" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="quantite" Type="int" />
+  </EntityType>
+  <EntityType Name="rapport">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="date" />
+    <Property Name="motif" Type="varchar" MaxLength="100" />
+    <Property Name="bilan" Type="varchar" MaxLength="100" />
+    <Property Name="idVisiteur" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="idMedecin" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="visiteur">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="char" MaxLength="4" Nullable="false" />
+    <Property Name="nom" Type="char" MaxLength="30" />
+    <Property Name="prenom" Type="char" MaxLength="30" />
+    <Property Name="login" Type="char" MaxLength="20" />
+    <Property Name="mdp" Type="char" MaxLength="20" />
+    <Property Name="adresse" Type="char" MaxLength="30" />
+    <Property Name="cp" Type="char" MaxLength="5" />
+    <Property Name="ville" Type="char" MaxLength="30" />
+    <Property Name="dateEmbauche" Type="date" />
+  </EntityType>
+  <Association Name="medicament_fk">
+    <End Role="famille" Type="Self.famille" Multiplicity="1" />
+    <End Role="medicament" Type="Self.medicament" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="famille">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="medicament">
+        <PropertyRef Name="idFamille" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="offrir_fk1">
+    <End Role="rapport" Type="Self.rapport" Multiplicity="1" />
+    <End Role="offrir" Type="Self.offrir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rapport">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="offrir">
+        <PropertyRef Name="idRapport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="offrir_fk2">
+    <End Role="medicament" Type="Self.medicament" Multiplicity="1" />
+    <End Role="offrir" Type="Self.offrir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medicament">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="offrir">
+        <PropertyRef Name="idMedicament" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="rapport_fk1">
+    <End Role="visiteur" Type="Self.visiteur" Multiplicity="1" />
+    <End Role="rapport" Type="Self.rapport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="visiteur">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="rapport">
+        <PropertyRef Name="idVisiteur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="rapport_fk2">
+    <End Role="medecin" Type="Self.medecin" Multiplicity="1" />
+    <End Role="rapport" Type="Self.rapport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medecin">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="rapport">
+        <PropertyRef Name="idMedecin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="gsbrapports2021ModelStoreContainer">
+    <EntitySet Name="famille" EntityType="Self.famille" Schema="gsbrapports2021" store:Type="Tables" />
+    <EntitySet Name="medecin" EntityType="Self.medecin" Schema="gsbrapports2021" store:Type="Tables" />
+    <EntitySet Name="medicament" EntityType="Self.medicament" Schema="gsbrapports2021" store:Type="Tables" />
+    <EntitySet Name="offrir" EntityType="Self.offrir" Schema="gsbrapports2021" store:Type="Tables" />
+    <EntitySet Name="rapport" EntityType="Self.rapport" Schema="gsbrapports2021" store:Type="Tables" />
+    <EntitySet Name="visiteur" EntityType="Self.visiteur" Schema="gsbrapports2021" store:Type="Tables" />
+    <AssociationSet Name="medicament_fk" Association="Self.medicament_fk">
+      <End Role="famille" EntitySet="famille" />
+      <End Role="medicament" EntitySet="medicament" />
+    </AssociationSet>
+    <AssociationSet Name="offrir_fk1" Association="Self.offrir_fk1">
+      <End Role="rapport" EntitySet="rapport" />
+      <End Role="offrir" EntitySet="offrir" />
+    </AssociationSet>
+    <AssociationSet Name="offrir_fk2" Association="Self.offrir_fk2">
+      <End Role="medicament" EntitySet="medicament" />
+      <End Role="offrir" EntitySet="offrir" />
+    </AssociationSet>
+    <AssociationSet Name="rapport_fk1" Association="Self.rapport_fk1">
+      <End Role="visiteur" EntitySet="visiteur" />
+      <End Role="rapport" EntitySet="rapport" />
+    </AssociationSet>
+    <AssociationSet Name="rapport_fk2" Association="Self.rapport_fk2">
+      <End Role="medecin" EntitySet="medecin" />
+      <End Role="rapport" EntitySet="rapport" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

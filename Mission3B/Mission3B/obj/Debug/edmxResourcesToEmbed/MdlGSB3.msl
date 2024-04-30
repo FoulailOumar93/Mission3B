@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="gsbrapports2021ModelStoreContainer" CdmEntityContainer="gsbrapports2021Entities">
+    <EntitySetMapping Name="famille">
+      <EntityTypeMapping TypeName="gsbrapports2021Model.famille">
+        <MappingFragment StoreEntitySet="famille">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="libelle" ColumnName="libelle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="medecin">
+      <EntityTypeMapping TypeName="gsbrapports2021Model.medecin">
+        <MappingFragment StoreEntitySet="medecin">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="adresse" ColumnName="adresse" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="specialiteComplementaire" ColumnName="specialiteComplementaire" />
+          <ScalarProperty Name="departement" ColumnName="departement" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="medicament">
+      <EntityTypeMapping TypeName="gsbrapports2021Model.medicament">
+        <MappingFragment StoreEntitySet="medicament">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nomCommercial" ColumnName="nomCommercial" />
+          <ScalarProperty Name="idFamille" ColumnName="idFamille" />
+          <ScalarProperty Name="composition" ColumnName="composition" />
+          <ScalarProperty Name="effets" ColumnName="effets" />
+          <ScalarProperty Name="contreIndications" ColumnName="contreIndications" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="offrir">
+      <EntityTypeMapping TypeName="gsbrapports2021Model.offrir">
+        <MappingFragment StoreEntitySet="offrir">
+          <ScalarProperty Name="idRapport" ColumnName="idRapport" />
+          <ScalarProperty Name="idMedicament" ColumnName="idMedicament" />
+          <ScalarProperty Name="quantite" ColumnName="quantite" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="rapport">
+      <EntityTypeMapping TypeName="gsbrapports2021Model.rapport">
+        <MappingFragment StoreEntitySet="rapport">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="motif" ColumnName="motif" />
+          <ScalarProperty Name="bilan" ColumnName="bilan" />
+          <ScalarProperty Name="idVisiteur" ColumnName="idVisiteur" />
+          <ScalarProperty Name="idMedecin" ColumnName="idMedecin" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="visiteur">
+      <EntityTypeMapping TypeName="gsbrapports2021Model.visiteur">
+        <MappingFragment StoreEntitySet="visiteur">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="mdp" ColumnName="mdp" />
+          <ScalarProperty Name="adresse" ColumnName="adresse" />
+          <ScalarProperty Name="cp" ColumnName="cp" />
+          <ScalarProperty Name="ville" ColumnName="ville" />
+          <ScalarProperty Name="dateEmbauche" ColumnName="dateEmbauche" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="gsbrapports2021Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="famille">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="libelle" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="medicament" Relationship="Self.medicament_fk" FromRole="famille" ToRole="medicament" />
+  </EntityType>
+  <EntityType Name="medecin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="prenom" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="adresse" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="tel" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="specialiteComplementaire" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="departement" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="rapport" Relationship="Self.rapport_fk2" FromRole="medecin" ToRole="rapport" />
+  </EntityType>
+  <EntityType Name="medicament">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nomCommercial" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idFamille" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="composition" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="effets" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="contreIndications" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="famille" Relationship="Self.medicament_fk" FromRole="medicament" ToRole="famille" />
+    <NavigationProperty Name="offrir" Relationship="Self.offrir_fk2" FromRole="medicament" ToRole="offrir" />
+  </EntityType>
+  <EntityType Name="offrir">
+    <Key>
+      <PropertyRef Name="idRapport" />
+      <PropertyRef Name="idMedicament" />
+    </Key>
+    <Property Name="idRapport" Type="Int32" Nullable="false" />
+    <Property Name="idMedicament" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="quantite" Type="Int32" />
+    <NavigationProperty Name="medicament" Relationship="Self.offrir_fk2" FromRole="offrir" ToRole="medicament" />
+    <NavigationProperty Name="rapport" Relationship="Self.offrir_fk1" FromRole="offrir" ToRole="rapport" />
+  </EntityType>
+  <EntityType Name="rapport">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" />
+    <Property Name="motif" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="bilan" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="idVisiteur" Type="String" MaxLength="4" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idMedecin" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="medecin" Relationship="Self.rapport_fk2" FromRole="rapport" ToRole="medecin" />
+    <NavigationProperty Name="offrir" Relationship="Self.offrir_fk1" FromRole="rapport" ToRole="offrir" />
+    <NavigationProperty Name="visiteur" Relationship="Self.rapport_fk1" FromRole="rapport" ToRole="visiteur" />
+  </EntityType>
+  <EntityType Name="visiteur">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="4" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="nom" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="prenom" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="login" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="mdp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="adresse" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="cp" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="ville" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="dateEmbauche" Type="DateTime" />
+    <NavigationProperty Name="rapport" Relationship="Self.rapport_fk1" FromRole="visiteur" ToRole="rapport" />
+  </EntityType>
+  <Association Name="medicament_fk">
+    <End Role="famille" Type="Self.famille" Multiplicity="1" />
+    <End Role="medicament" Type="Self.medicament" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="famille">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="medicament">
+        <PropertyRef Name="idFamille" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="rapport_fk2">
+    <End Role="medecin" Type="Self.medecin" Multiplicity="1" />
+    <End Role="rapport" Type="Self.rapport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medecin">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="rapport">
+        <PropertyRef Name="idMedecin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="offrir_fk2">
+    <End Role="medicament" Type="Self.medicament" Multiplicity="1" />
+    <End Role="offrir" Type="Self.offrir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="medicament">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="offrir">
+        <PropertyRef Name="idMedicament" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="offrir_fk1">
+    <End Role="rapport" Type="Self.rapport" Multiplicity="1" />
+    <End Role="offrir" Type="Self.offrir" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="rapport">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="offrir">
+        <PropertyRef Name="idRapport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="rapport_fk1">
+    <End Role="visiteur" Type="Self.visiteur" Multiplicity="1" />
+    <End Role="rapport" Type="Self.rapport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="visiteur">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="rapport">
+        <PropertyRef Name="idVisiteur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="gsbrapports2021Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="famille" EntityType="Self.famille" />
+    <EntitySet Name="medecin" EntityType="Self.medecin" />
+    <EntitySet Name="medicament" EntityType="Self.medicament" />
+    <EntitySet Name="offrir" EntityType="Self.offrir" />
+    <EntitySet Name="rapport" EntityType="Self.rapport" />
+    <EntitySet Name="visiteur" EntityType="Self.visiteur" />
+    <AssociationSet Name="medicament_fk" Association="Self.medicament_fk">
+      <End Role="famille" EntitySet="famille" />
+      <End Role="medicament" EntitySet="medicament" />
+    </AssociationSet>
+    <AssociationSet Name="rapport_fk2" Association="Self.rapport_fk2">
+      <End Role="medecin" EntitySet="medecin" />
+      <End Role="rapport" EntitySet="rapport" />
+    </AssociationSet>
+    <AssociationSet Name="offrir_fk2" Association="Self.offrir_fk2">
+      <End Role="medicament" EntitySet="medicament" />
+      <End Role="offrir" EntitySet="offrir" />
+    </AssociationSet>
+    <AssociationSet Name="offrir_fk1" Association="Self.offrir_fk1">
+      <End Role="rapport" EntitySet="rapport" />
+      <End Role="offrir" EntitySet="offrir" />
+    </AssociationSet>
+    <AssociationSet Name="rapport_fk1" Association="Self.rapport_fk1">
+      <End Role="visiteur" EntitySet="visiteur" />
+      <End Role="rapport" EntitySet="rapport" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,176 @@
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\Mission3_GSB.exe.config
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\Mission3_GSB.exe
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\Mission3_GSB.pdb
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\EntityFramework.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\Google.Protobuf.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\MySql.Data.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\System.Buffers.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\System.Memory.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\ZstdNet.dll
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\EntityFramework.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\Google.Protobuf.pdb
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\Google.Protobuf.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\MySql.Data.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\System.Buffers.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\System.Memory.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.csprojAssemblyReference.cache
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.Form1.resources
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.Properties.Resources.resources
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.GenerateResource.cache
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.CoreCompileInputs.cache
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.CopyComplete
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.exe
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.pdb
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmAddMedic.resources
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmDelete.resources
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmUpdate.resources
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmVoirMedic.resources
+C:\Users\Nassim\Documents\2TSSISL\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmAddFamily.resources
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\Mission3_GSB.exe.config
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\Mission3_GSB.exe
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\Mission3_GSB.pdb
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\BouncyCastle.Crypto.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\EntityFramework.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\EntityFramework.SqlServer.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\Google.Protobuf.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Hash.xxHash.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\MySql.Data.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\MySql.Data.EntityFramework.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\System.Buffers.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\System.Memory.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\System.Numerics.Vectors.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\Ubiety.Dns.Core.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\ZstdNet.dll
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\EntityFramework.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\EntityFramework.SqlServer.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\Google.Protobuf.pdb
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\Google.Protobuf.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\K4os.Hash.xxHash.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\MySql.Data.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\MySql.Data.EntityFramework.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\System.Buffers.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\System.Memory.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\System.Numerics.Vectors.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.AssemblyReference.cache
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.Form1.resources
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmAddFamily.resources
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmAddMedic.resources
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmDelete.resources
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmUpdate.resources
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.FrmVoirMedic.resources
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.Properties.Resources.resources
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.GenerateResource.cache
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.CoreCompileInputs.cache
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.CopyComplete
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.exe
+D:\projetc#\Mission3_GSB\Mission3_GSB\obj\Debug\Mission3_GSB.pdb
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Mission3_GSB.exe.config
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Mission3_GSB.exe
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Mission3_GSB.pdb
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\BouncyCastle.Crypto.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\EntityFramework.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\EntityFramework.SqlServer.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Google.Protobuf.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Hash.xxHash.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\MySql.Data.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\MySql.Data.EntityFramework.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Buffers.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Memory.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Numerics.Vectors.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Ubiety.Dns.Core.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\ZstdNet.dll
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\EntityFramework.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\EntityFramework.SqlServer.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Google.Protobuf.pdb
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Google.Protobuf.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Hash.xxHash.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\MySql.Data.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\MySql.Data.EntityFramework.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Buffers.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Memory.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Numerics.Vectors.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.AssemblyReference.cache
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmAddFamily.resources
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmAddMedic.resources
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmDelete.resources
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmUpdate.resources
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmVoirMedic.resources
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.Properties.Resources.resources
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.GenerateResource.cache
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.CoreCompileInputs.cache
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.CopyComplete
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.exe
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.pdb
+E:\BTS SIO\Mission3B_GSB-main\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmMenu.resources
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Mission3_GSB.exe.config
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Mission3_GSB.exe
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Mission3_GSB.pdb
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\BouncyCastle.Crypto.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\EntityFramework.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\EntityFramework.SqlServer.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Google.Protobuf.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Hash.xxHash.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\MySql.Data.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\MySql.Data.EntityFramework.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Buffers.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Memory.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Numerics.Vectors.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Ubiety.Dns.Core.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\ZstdNet.dll
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\EntityFramework.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\EntityFramework.SqlServer.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Google.Protobuf.pdb
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\Google.Protobuf.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\K4os.Hash.xxHash.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\MySql.Data.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\MySql.Data.EntityFramework.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Buffers.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Memory.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Numerics.Vectors.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.AssemblyReference.cache
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmMenu.resources
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmAjoutFamille.resources
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmVoirMedic.resources
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.Properties.Resources.resources
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.GenerateResource.cache
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.csproj.CoreCompileInputs.cache
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.exe
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.pdb
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmAjoutMedic.resources
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmSupprimer.resources
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3_GSB.FrmMAJ.resources
+E:\BTS SIO\Mission3B\Mission3B_GSB-main\Mission3_GSB\obj\Debug\Mission3.004F10BC.Up2Date
