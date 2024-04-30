@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f229a566366b4388a52674f3516f9b18" Name="Diagram1">
+        <EntityTypeShape EntityType="gsbrapportModel.famille" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="gsbrapportModel.medecin" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="gsbrapportModel.medicament" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="gsbrapportModel.offrir" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="gsbrapportModel.rapport" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="gsbrapportModel.visiteur" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="gsbrapportModel.medicament_fk" ManuallyRouted="false" />
+        <AssociationConnector Association="gsbrapportModel.rapport_fk2" ManuallyRouted="false" />
+        <AssociationConnector Association="gsbrapportModel.offrir_fk2" ManuallyRouted="false" />
+        <AssociationConnector Association="gsbrapportModel.offrir_fk1" ManuallyRouted="false" />
+        <AssociationConnector Association="gsbrapportModel.rapport_fk1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
