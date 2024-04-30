@@ -1,4 +1,4 @@
-*Mission 3 version b*
+* Mission 3 version b *
 
 ![](Aspose.Words.8cea9e00-aa2d-4a63-bb6d-c5ce8c29405a.001.png)
 
